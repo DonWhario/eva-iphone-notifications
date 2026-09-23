@@ -17,14 +17,13 @@ configurables**.
 
 ## Capturas
 
-| Menú del indicador | Notificación de un mensaje | Preferencias |
-|:---:|:---:|:---:|
-| ![Menú del sobre en la barra superior](docs/menu.png) | ![Notificación de mensaje entrante](docs/notificacion.png) | ![Panel de preferencias](docs/preferencias.png) |
+| Menú del indicador | Preferencias |
+|:---:|:---:|
+| ![Menú del sobre en la barra superior](docs/menu.png) | ![Panel de preferencias](docs/preferencias.png) |
 
-> Las imágenes viven en la carpeta [`docs/`](docs/). Para añadir/reemplazar una
-> captura, guarda el PNG con ese nombre (`docs/menu.png`,
-> `docs/notificacion.png`, `docs/preferencias.png`) y haz commit. En GNOME
-> puedes capturar una región con **Impr Pant** (o `gnome-screenshot -a`).
+> Las imágenes viven en la carpeta [`docs/`](docs/). En GNOME puedes capturar
+> una región con la tecla **Impr Pant** (se guarda en
+> `~/Imágenes/Capturas de pantalla/`).
 
 ---
 
