@@ -17,9 +17,9 @@ configurables**.
 
 ## Capturas
 
-| Menú del indicador | Preferencias |
-|:---:|:---:|
-| ![Menú del sobre en la barra superior](docs/menu.png) | ![Panel de preferencias](docs/preferencias.png) |
+| Menú del indicador | Notificación de un mensaje | Preferencias |
+|:---:|:---:|:---:|
+| ![Menú del sobre en la barra superior](docs/menu.png) | ![Notificación con la fuente EVA](docs/notificacion.png) | ![Panel de preferencias](docs/preferencias.png) |
 
 > Las imágenes viven en la carpeta [`docs/`](docs/). En GNOME puedes capturar
 > una región con la tecla **Impr Pant** (se guarda en
