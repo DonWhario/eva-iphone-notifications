@@ -127,6 +127,20 @@ sudo bash scripts/setup-autoconnect.sh <MAC_DEL_IPHONE>
 # La MAC:  bluetoothctl devices | grep -i iphone
 ```
 
+### 5. (Opcional) Evitar el parpadeo del systray con dos dispositivos
+
+Cuando el iPhone está conectado (para ANCS) también expone un **reproductor
+multimedia AVRCP** que iOS registra/de-registra en bucle; con otro dispositivo
+Bluetooth conectado a la vez (p.ej. auriculares), GNOME redibuja sus widgets y
+los **iconos del systray parpadean**. Este servicio de usuario desconecta *solo*
+el reproductor AVRCP del iPhone, sin afectar a las notificaciones (ANCS/BLE) ni a
+los controles multimedia de otros equipos:
+
+```bash
+bash scripts/setup-iphone-noavrcp.sh <MAC_DEL_IPHONE>
+# Revertir:  systemctl --user disable --now iphone-noavrcp.service
+```
+
 ---
 
 ## Configuración (Preferencias)
