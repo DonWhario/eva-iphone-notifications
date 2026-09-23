@@ -1,0 +1,10 @@
+# Esquemas compilados (se generan al instalar)
+schemas/gschemas.compiled
+
+# Empaquetado
+*.zip
+
+# Temporales de editores / SO
+*~
+*.swp
+.DS_Store

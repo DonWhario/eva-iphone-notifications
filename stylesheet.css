@@ -1,0 +1,44 @@
+.inm-box {
+    spacing: 2px;
+}
+
+.inm-badge {
+    background-color: #e01b24;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 9pt;
+    border-radius: 10px;
+    padding: 0 5px;
+    margin-left: 1px;
+}
+
+/* Ventana propia de notificacion (independiente del sistema) */
+.eva-banner {
+    background-color: rgba(36, 36, 40, 0.96);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 14px;
+    padding: 12px 16px;
+    spacing: 12px;
+    min-width: 260px;
+    max-width: 460px;
+    box-shadow: 0 4px 16px 2px rgba(0, 0, 0, 0.45);
+}
+
+.eva-banner-icon {
+    color: #ffffff;
+}
+
+.eva-banner-text {
+    spacing: 2px;
+}
+
+.eva-banner-title {
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.eva-banner-body {
+    font-size: 10pt;
+    color: rgba(255, 255, 255, 0.85);
+}

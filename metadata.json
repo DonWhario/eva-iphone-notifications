@@ -1,0 +1,9 @@
+{
+  "uuid": "iphone-notify@fabarca",
+  "name": "iPhone Notifications",
+  "description": "Muestra en el escritorio las notificaciones y mensajes del iPhone recibidos por Bluetooth LE (a traves de ancs4linux / servicio ANCS de Apple). Anade un icono de sobre en la barra superior: sobre cerrado cuando no hay mensajes, sobre abierto con un contador cuando los hay. Incluye modo No molestar, sonido de alerta configurable, filtro por dispositivo y por aplicacion.",
+  "shell-version": ["45", "46", "47", "48"],
+  "settings-schema": "org.gnome.shell.extensions.iphone-notify",
+  "gettext-domain": "iphone-notify",
+  "url": ""
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.iphone-notify"
+          path="/org/gnome/shell/extensions/iphone-notify/">
+
+    <key name="dnd" type="b">
+      <default>false</default>
+      <summary>No molestar</summary>
+      <description>Si esta activo, no se muestran banners ni suena la alerta (los mensajes se siguen contando).</description>
+    </key>
+
+    <key name="sound-enabled" type="b">
+      <default>true</default>
+      <summary>Sonido de alerta</summary>
+      <description>Reproduce un sonido al recibir un mensaje.</description>
+    </key>
+
+    <key name="sound-file" type="s">
+      <default>''</default>
+      <summary>Archivo de sonido</summary>
+      <description>Ruta a un archivo de audio a reproducir. Si esta vacio se usa el sonido del sistema.</description>
+    </key>
+
+    <key name="device-address" type="s">
+      <default>''</default>
+      <summary>Direccion del dispositivo (filtro)</summary>
+      <description>Si se indica una direccion Bluetooth, solo se muestran notificaciones de ese dispositivo. Vacio = todos.</description>
+    </key>
+
+    <key name="app-filter" type="s">
+      <default>''</default>
+      <summary>Filtro de aplicaciones</summary>
+      <description>Lista separada por comas de nombres de app (p.ej. Messages,WhatsApp,Telegram). Solo se muestran esas. Vacio = todas.</description>
+    </key>
+
+    <key name="hci-address" type="s">
+      <default>''</default>
+      <summary>Adaptador Bluetooth (HCI)</summary>
+      <description>Direccion del adaptador local usado para el emparejamiento/advertising con ancs4linux.</description>
+    </key>
+
+    <key name="advertise-name" type="s">
+      <default>'Debian PC'</default>
+      <summary>Nombre visible</summary>
+      <description>Nombre con el que el PC aparece en el iPhone al emparejar.</description>
+    </key>
+
+    <key name="show-preview" type="b">
+      <default>true</default>
+      <summary>Mostrar vista previa</summary>
+      <description>Muestra el contenido del mensaje en el banner. Si se desactiva solo se indica que llego un mensaje.</description>
+    </key>
+
+    <key name="banner-mode" type="s">
+      <default>'custom'</default>
+      <summary>Donde mostrar la notificacion</summary>
+      <description>'system' = notificacion del sistema (arriba-centro). 'custom' = ventana propia con posicion configurable.</description>
+    </key>
+
+    <key name="banner-position" type="s">
+      <default>'bottom-right'</default>
+      <summary>Posicion de la ventana propia</summary>
+      <description>top-left, top-center, top-right, center, bottom-left, bottom-center, bottom-right.</description>
+    </key>
+
+    <key name="banner-timeout" type="i">
+      <default>6</default>
+      <summary>Duracion (segundos)</summary>
+      <description>Segundos que permanece visible la ventana propia antes de desaparecer.</description>
+    </key>
+
+  </schema>
+</schemalist>
